@@ -11,6 +11,9 @@
             <NuxtLink class="nav-link" aria-current="page" to="/">Home</NuxtLink>
         </li>
         <li class="nav-item">
+            <NuxtLink class="nav-link" to="/composition">Composition</NuxtLink>
+        </li>
+        <li class="nav-item">
             <NuxtLink class="nav-link" to="/cart">Cart <span>{{ $store.getters['cart/cartProducts'].length }}</span></NuxtLink>
         </li>
         <li class="nav-item">
